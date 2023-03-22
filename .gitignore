@@ -115,4 +115,5 @@ Temporary Items
 
 .idea
 poetry.lock
+docs/build/
 
