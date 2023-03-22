@@ -5,4 +5,8 @@
 .. toctree::
     :maxdepth: 2
 
+    theory
+    contro_net
+    webui
+    extensions/index
 

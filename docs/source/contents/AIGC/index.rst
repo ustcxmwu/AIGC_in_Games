@@ -1,5 +1,5 @@
 
-AI 内容生成（Generated Content）
+AI 内容生成（AI Generated Content）
 -----------
 
 .. toctree::
