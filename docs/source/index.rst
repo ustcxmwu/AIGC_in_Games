@@ -7,10 +7,11 @@ Xmwu 的学习笔记!
 ======================================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :caption: 目录:
 
-   contents
+   contents/main
+   contents/ai_basic/index
 
 
 
