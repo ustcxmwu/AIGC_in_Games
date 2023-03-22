@@ -11,6 +11,7 @@ Xmwu 的学习笔记!
    :caption: 目录:
 
    contents/main
+   contents/main/index
    contents/ai_basic/index
 
 
