@@ -1,5 +1,5 @@
 
-Stable Diffusion WebUI
+Stable Diffusion 理论基础
 ------------------------
 
 

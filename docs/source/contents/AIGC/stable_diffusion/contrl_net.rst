@@ -1,5 +1,5 @@
 
-Stable Diffusion WebUI
+ControlNet
 ------------------------
 
 
