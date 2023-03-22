@@ -13,6 +13,7 @@ Xmwu 的学习笔记!
    contents/main
    contents/math/index
    contents/ai_basic/index
+   contents/AIGC/index
 
 
 
