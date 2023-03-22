@@ -3,6 +3,6 @@
 .. toctree::
     :maxdepth: 2
 
-    contents/test.rst
+    contents/main
 
     contents/ai_basic/index
