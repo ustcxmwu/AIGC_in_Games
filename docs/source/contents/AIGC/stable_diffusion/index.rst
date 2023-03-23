@@ -7,6 +7,5 @@
 
     theory
     contro_net
-    webui
-    extensions/index
+    webui/index
 
