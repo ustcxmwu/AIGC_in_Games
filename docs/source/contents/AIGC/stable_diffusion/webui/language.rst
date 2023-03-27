@@ -1,7 +1,7 @@
-Stable-Diffusion WEBUI 汉化
+Stable-Diffusion WebUI 汉化
 ================================================================================
 
-WEBUI 汉化
+WebUI 汉化
 --------------------------------------------------------------------------------
 
 1. 从 `Stable-Diffusion 汉化文件 <https://github.com/VinsonLaro/stable-diffusion-webui-chinese/tree/main/localizations>`_ 下载汉化文件，任选一个 json 文件都可以。
