@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Xmwu 的学习笔记!
+AIGC 原理与应用
 ================================================================================
 
 .. toctree::
