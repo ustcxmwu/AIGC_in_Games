@@ -5,10 +5,6 @@ Content main page
 
 .. Attention:: Directives at large.
 
-.. Attention:: Directives at large.
-
-.. Attention:: Directives at large.
-
 .. Caution:: Don't take any wooden nickels.
 
 .. DANGER:: Mad scientist at work!

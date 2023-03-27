@@ -6,6 +6,6 @@
     :maxdepth: 2
 
     theory
-    contro_net
+    control_net
     webui/index
 

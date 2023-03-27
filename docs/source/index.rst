@@ -10,6 +10,7 @@ Xmwu 的学习笔记!
    :maxdepth: 3
    :caption: 目录:
 
+   contents/main
    contents/math/index
    contents/ai_basic/index
    contents/AIGC/index

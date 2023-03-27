@@ -6,4 +6,5 @@ Stable Diffusion WebUI
     :maxdepth: 2
 
     installation
+    language
     extensions/index
