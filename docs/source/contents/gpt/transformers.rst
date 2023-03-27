@@ -1,5 +1,5 @@
-.. _Stable Diffusion 理论基础:
+.. _Transformers:
 
-Stable Diffusion 理论基础
+Transformers
 ================================================================================
 

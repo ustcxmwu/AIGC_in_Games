@@ -4,5 +4,8 @@
 
 .. toctree::
     :maxdepth: 2
+    :caption: GPT Based Models:
 
-
+    transformers
+    GPT
+    ChatGPT
