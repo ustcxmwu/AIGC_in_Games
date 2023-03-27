@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Read Motes'
-copyright = '2023, Wu Xiaomin <xmwu@mail.ustc.edu.cn>'
-author = 'Wu Xiaomin <xmwu@mail.ustc.edu.cn>'
+project = 'AIGC 原理与应用'
+copyright = '2023, Wu Xiaomin <wuxiaomin@pandadastudio.com>'
+author = 'Wu Xiaomin <wuxiaomin@pandadastudio.com>'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1.0'
