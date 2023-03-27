@@ -1,6 +1,6 @@
 .. _Stable Diffusion WebUI 扩展:
 
-Stable Diffusion WebUI Extensions
+Stable Diffusion WebUI 插件/扩展
 ================================================================================
 
 Stable Diffusion WebUI 官方插件介绍页面为: `SD WiKi Extensions <https://github
