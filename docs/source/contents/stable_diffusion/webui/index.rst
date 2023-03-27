@@ -6,6 +6,8 @@ Stable Diffusion WebUI
 .. toctree::
     :maxdepth: 2
 
-    installation
+    installation_win
+    installation_ubuntu
+    installation_mac
     language
     extensions/index
