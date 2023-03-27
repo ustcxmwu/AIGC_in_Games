@@ -14,6 +14,7 @@ Xmwu 的学习笔记!
    contents/gpt/index
    contents/ai_basic/index
    contents/math/index
+   contents/draft
 
 
 

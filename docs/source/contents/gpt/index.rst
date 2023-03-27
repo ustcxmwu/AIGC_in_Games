@@ -1,5 +1,5 @@
 
-基于转换器的生成式预训练模型（Generative pre-trained transformers; GPT）
+基于 Transformer 的生成式预训练模型（Generative pre-trained transformers; GPT）
 --------------------------------------------------------------------------------
 
 .. toctree::
