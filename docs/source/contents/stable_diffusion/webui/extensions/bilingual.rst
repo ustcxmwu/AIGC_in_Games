@@ -1,6 +1,6 @@
 .. _Bilingual:
 
-sd-webui-bilingual-localization
+Bilingual Localization
 ================================================================================
 
 

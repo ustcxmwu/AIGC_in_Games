@@ -18,3 +18,10 @@ Stable Diffusion WebUI 官方插件介绍页面为: `SD WiKi Extensions <https:/
     :caption: Stable Diffusion Web UI 常用插件
 
     bilingual
+    posex
+    chatgpt_utils
+    control_net
+    llul
+    dynamic_prompts
+    upscaler
+    tagger

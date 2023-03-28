@@ -9,9 +9,7 @@ Stable Diffusion Web UI 是基于 Python Gradio 库开发的浏览器推理接�
     :maxdepth: 2
     :caption: 目录:
 
-    installation/win
-    installation/ubuntu
-    installation/mac
+    installation/index
     language
     extensions/index
     user_guide/index
