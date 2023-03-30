@@ -17,10 +17,12 @@ Stable Diffusion WebUI 官方插件介绍页面为: `SD WiKi Extensions <https:/
     :maxdepth: 2
     :caption: Stable Diffusion Web UI 常用插件
 
+    control_net
+    lora
+    dreambooth
     bilingual
     posex
     chatgpt_utils
-    control_net
     llul
     dynamic_prompts
     upscaler
