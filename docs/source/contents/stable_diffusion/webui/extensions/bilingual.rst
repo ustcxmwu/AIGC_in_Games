@@ -3,6 +3,11 @@
 Bilingual Localization
 ================================================================================
 
+Bilingual Localization 提供界面的中英文对照显示
+
+.. image:: ./_static/bilingual.png
+
+
 
 1. 安装插件
 
