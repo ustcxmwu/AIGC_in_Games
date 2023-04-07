@@ -9,6 +9,6 @@
 
     theory
     control_net
-    lora
+    lora/index
     webui/index
 
