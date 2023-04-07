@@ -73,5 +73,57 @@ LoRA 训练过程依赖于以下两个 Git repo
 3. 模型训练
 --------------------------------------------------------------------------------
 
+3.1 训练参数说明
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
+
+3.2 Ubuntu LoRA 模型训练
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. 激活 Python 虚拟环境
+
+.. code:: bash
+
+    source venv/bin/activate
+    
+2. 编辑 train.sh 文件，然后执行
+
+.. code:: bash
+
+    ./train.sh
+
+3. 在模型训练过程中或者结束后，都可以运行 tensorboard 命令，然后在浏览器中查看训练效果
+
+.. code:: bash
+
+    source venv/bin/activate
+    tensorboad --logdir=./logs --port=8888
+
+.. image:: ./_static/tensorboard.png
+
+
+
+3.3 Win LoRA 模型训练
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. 编辑 train.sh 文件，然后执行
+
+.. code:: bash
+
+    ./train.ps1
+
+.. Attention::
+
+    1. train.ps1 只是把多组命令行命令包装起来
+    #. train.ps1 中自动激活对应的 Python 环境
+
+2. 在模型训练过程中或者结束后，都可以运行 tensorboard 命令，然后在浏览器中查看训练效果
+
+.. code:: bash
+
+    source venv/bin/activate
+    tensorboad --logdir=./logs --port=8888
+
+.. image:: ./_static/tensorboard.png
 
