@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-AIGC 原理与应用
+AIGC 在游戏中的应用与实践
 ================================================================================
 
 .. toctree::
