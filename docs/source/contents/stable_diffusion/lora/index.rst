@@ -16,3 +16,4 @@ LoRA（Low-Rank Adaptation of Large Language Models）
 --------------------------------------------------------------------------------
 
 1. `GitHub LoRA repo <https://github.com/cloneofsimo/lora>`_
+#. `LoRA 论文 <https://arxiv.org/abs/2106.09685>`_
