@@ -76,18 +76,6 @@ LoRA 训练过程依赖于以下两个 Git repo
 3.1 训练参数说明
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. list-table:: LoRA 训练参数说明
-    :widths: 20 20 60
-    :header-rows: 1
-    :class: tight-table
-
-    *   - 参数名称
-        - 参数说明
-        - 参数示例
-    *   - 参数名称
-        - 参数说明
-        - 参数示例
-
 .. csv-table:: LoRA 训练参数说明
     :file: ./_static/lora_param.csv
     :widths: 20 20 60

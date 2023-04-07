@@ -1,0 +1,5 @@
+"参数名称",参数说明,参数示例
+"pretrained_model",SD基础模型,./sd-models/model.ckpt
+"train_data_dir",训练图片数据集路径,./train/aki
+,,
+,,
