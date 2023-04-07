@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'AIGC 原理与应用'
+project = 'AIGC 在游戏中的应用和实践'
 copyright = '2023, Wu Xiaomin <wuxiaomin@pandadastudio.com>'
 author = 'Wu Xiaomin <wuxiaomin@pandadastudio.com>'
 

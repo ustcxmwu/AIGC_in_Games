@@ -1,6 +1,6 @@
 .. _Stable Diffusion WebUI:
 
-Stable Diffusion WebUI
+Stable Diffusion WebUI 安装
 ================================================================================
 
 Stable Diffusion Web UI 是基于 Python Gradio 库开发的浏览器推理接口。
@@ -12,4 +12,3 @@ Stable Diffusion Web UI 是基于 Python Gradio 库开发的浏览器推理接�
     installation/index
     language
     extensions/index
-    user_guide/index

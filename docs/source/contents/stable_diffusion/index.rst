@@ -11,4 +11,5 @@
     control_net
     lora/index
     webui/index
+    webui_user_guide/index
 
