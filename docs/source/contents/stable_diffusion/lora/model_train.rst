@@ -79,6 +79,7 @@ LoRA 训练过程依赖于以下两个 Git repo
 .. list-table:: LoRA 训练参数说明
     :widths: 20 20 60
     :header-rows: 1
+    :class: tight-table
 
     *   - 参数名称
         - 参数说明
@@ -86,6 +87,11 @@ LoRA 训练过程依赖于以下两个 Git repo
     *   - 参数名称
         - 参数说明
         - 参数示例
+
+.. csv-table:: LoRA 训练参数说明
+    :file: ./_static/lora_param.csv
+    :widths: 20 20 60
+    :header-rows: 1
 
 
 3.2 Ubuntu LoRA 模型训练
@@ -110,7 +116,11 @@ LoRA 训练过程依赖于以下两个 Git repo
     .\venv\Scripts\activate
     tensorboad --logdir=./logs --port=8888
 
+训练结果如图
+
 .. image:: ./_static/tensorboard.png
+    :width: 80%
+    :align: center
 
 
 3.3 Win LoRA 模型训练
@@ -134,8 +144,11 @@ LoRA 训练过程依赖于以下两个 Git repo
     source venv/bin/activate
     tensorboad --logdir=./logs --port=8888
 
-.. image:: ./_static/tensorboard.png
+训练结果如图
 
+.. image:: ./_static/tensorboard.png
+    :width: 80%
+    :align: center
 
 3.4 问题记录
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
