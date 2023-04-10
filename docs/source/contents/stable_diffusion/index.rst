@@ -8,7 +8,7 @@
     :maxdepth: 2
 
     theory
-    control_net
+    control_net/index
     lora/index
     webui/index
     webui_user_guide/index
