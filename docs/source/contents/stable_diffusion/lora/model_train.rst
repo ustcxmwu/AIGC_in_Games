@@ -110,6 +110,9 @@ LoRA 训练过程依赖于以下两个 Git repo
     :width: 80%
     :align: center
 
+4. 训练完成后，可以根据 Loss 曲线选择相应的模型放置到路径 stable-diffusion-webui/extensions/sd-webui-addtional-networks/models/lora 路径下即可在 SD
+WebUI 中使用训练好的模型
+
 
 3.3 Win LoRA 模型训练
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -137,6 +140,9 @@ LoRA 训练过程依赖于以下两个 Git repo
 .. image:: ./_static/tensorboard.png
     :width: 80%
     :align: center
+
+3. 训练完成后，可以根据 Loss 曲线选择相应的模型放置到路径 stable-diffusion-webui/extensions/sd-webui-addtional-networks/models/lora 路径下即可在 SD
+WebUI 中使用训练好的模型
 
 3.4 问题记录
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
