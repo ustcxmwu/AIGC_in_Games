@@ -1,7 +1,7 @@
 .. _LoRA:
 
 
-LoRA（Low-Rank Adaptation of Large Language Models）
+LoRA 原理与应用
 ================================================================================
 
 .. toctree::

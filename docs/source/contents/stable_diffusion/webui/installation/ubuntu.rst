@@ -59,4 +59,15 @@ Stable-Diffusion WebUI 安装
 
         git clone https://github.com/TencentARC/GFPGAN.git
         cd GFPGAN/
-        ./stable-diffusion-webui/venv/bin/python setup.py develop # 此处 python 应该为 venv 路径下的python
+
+        ../stable-diffusion-webui/venv/bin/pip install cython
+
+        ../stable-diffusion-webui/venv/bin/pip install basicsr
+
+        ../stable-diffusion-webui/venv/bin/pip install facexlib
+
+        ../stable-diffusion-webui/venv/bin/pip install -r requirements.txt
+
+        ../stable-diffusion-webui/venv/bin/python setup.py develop # 此处 python 应该为 venv 路径下的python
+
+        ../stable-diffusion-webui/venv/bin/pip install realesrgan
