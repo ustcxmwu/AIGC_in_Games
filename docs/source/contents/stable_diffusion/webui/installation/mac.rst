@@ -10,30 +10,29 @@ Mac 安装 Stable-Diffusion WebUI
 
 .. code:: bash
 
-    ~ brew install git
+    # 安装 git
+    brew install git
     # 验证git安装
-    ~ git --version
-    git version 2.38.0
-    ~
-    ~ brew install wget
+    git --version
+
+    # 安装 wget
+    brew install wget
     # 验证 wget 安装
-    ~ wget --version
-    GNU Wget 1.21.3 在 darwin22.1.0 上编译。
+    wget --version
 
 3. 安装 Anaconda，从 Anaconda 下载最新的安装脚本并运行, Anaconda 是包含了 Python 安装包，具体可参阅: `Anaconda 官网 <https://www.anaconda.com/>`_。
 
 .. code:: bash
 
-    ~ wget https://repo.anaconda.com/archive/Anaconda3-2023.03-MacOSX-arm64.sh
-    ~ chmod 755 Anaconda3-2023.03-MacOSX-arm64.sh
-    ~ ./Anaconda3-2023.03-MacOSX-arm64.sh
+    wget https://repo.anaconda.com/archive/Anaconda3-2023.03-MacOSX-arm64.sh
+    chmod 755 Anaconda3-2023.03-MacOSX-arm64.sh
+    ./Anaconda3-2023.03-MacOSX-arm64.sh
 
 安装完毕可进行 Python 安装环境验证
 
 .. code:: bash
 
-    ~# python --version
-    Python 3.10.9
+    python --version
 
 
 Stable-Diffusion WebUI 安装
@@ -52,9 +51,9 @@ Stable-Diffusion WebUI 安装
 
     .. code:: bash
 
-        ~# git clone https://github.com/TencentARC/GFPGAN.git
-        ~# cd GFPGAN/
-        ~# ./stable-diffusion-webui/venv/bin/python setup.py develop # 此处 python 应该为 venv 路径下的python
+        git clone https://github.com/TencentARC/GFPGAN.git
+        cd GFPGAN/
+        ./stable-diffusion-webui/venv/bin/python setup.py develop # 此处 python 应该为 venv 路径下的python
 
 .. Attention:: 如果报 Clang 错误，需要手动安装 cython
 
