@@ -22,6 +22,7 @@ Stable Diffusion WebUI 官方插件介绍页面为: `SD WiKi Extensions <https:/
     dreambooth
     bilingual
     posex
+    image_browser
     chatgpt_utils
     llul
     dynamic_prompts
