@@ -24,12 +24,12 @@ Stable-Diffusion WebUI ControlNet 和 T2I-Adapter 插件。
 
 2. 下载模型
 
-    .. code:: bash
-    
-        cd models/ControlNet
-        wget model_download_url
+.. code:: bash
 
-    模型网址：https://huggingface.co/webui/ControlNet-modules-safetensors/tree/main
+    cd models/ControlNet
+    wget model_download_url
+
+模型网址：https://huggingface.co/webui/ControlNet-modules-safetensors/tree/main
 
 
 插件使用
