@@ -42,29 +42,43 @@ ChatGPT 开源实现
 
 2. 安装 CUDA Toolkit
 
-1. 选择合适的 CUDA Toolkit 版本, 下载地址: `CUDA Toolkit <https://developer.nvidia.com/cuda-downloads>`_
-#. 运行安装
+    1. 选择合适的 CUDA Toolkit 版本, 下载地址: `CUDA Toolkit <https://developer.nvidia.com/cuda-downloads>`_
+    #. 运行安装
 
-.. code:: bash
+    .. code:: bash
 
-    # Ubuntu 18.04 系统
-    wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
-    sudo 755 cuda_12.1.0_530.30.02_linux.run
-    sudo sh cuda_12.1.0_530.30.02_linux.run --tookit --silent --override
+        # Ubuntu 18.04 系统
+        wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
+        sudo 755 cuda_12.1.0_530.30.02_linux.run
+        sudo sh cuda_12.1.0_530.30.02_linux.run --tookit --silent --override
 
 
-.. Attention:: 下载模型
+3. 加速下载模型
 
-    - wget
-    - git lfs + clone
-    - huggface_hub
+    .. Attention:: 下载模型
 
-    .. code:: python
+        - wget
+        - git lfs + clone
+        - huggface_hub
 
-        from huggingface_hub import snapshot_download
+        .. code:: python
 
-        # bert-base-chinese 为 hugging_face  repo id
-        snapshot_download(repo_id="bert-base-chinese")
+            from huggingface_hub import snapshot_download
+
+            # bert-base-chinese 为 hugging_face  repo id
+            snapshot_download(repo_id="bert-base-chinese")
+
+
+4. 基础大模型
+
+- Meta LLaMA `Introducing LLaMA: A foundational, 65-billion-parameter large language model <https://ai.facebook .com/blog/large-language-model-llama-meta-ai/>`_
+    - 论文 `LLaMA: Open and Efficient Foundation Language Models <https://arxiv.org/abs/2302.13971>`_
+    - 模型下载 `LLaMA <https://github.com/facebookresearch/llama>`_
+- EleutherAI’s Pythia `Pythia: Interpreting Autoregressive Transformers Across Time and Scale <https://github.com/EleutherAI/pythia>`_
+    - 模型下载 `Pythia Model <https://huggingface.co/EleutherAI/pythia-12b>`_
+
+
+
 
 
 ChatGPT 开源实现
@@ -76,6 +90,9 @@ ChatGPT 开源实现
 
     chatglm_6b
     dolly
+    alpaca
     alpaca_lora
     openchatkit
+    gpt4all
+    BELLE
 

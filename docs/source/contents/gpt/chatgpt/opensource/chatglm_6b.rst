@@ -18,4 +18,5 @@ ChatGLM-6B
     cd model
     wget model_download_url
 
+3. 运行
 
