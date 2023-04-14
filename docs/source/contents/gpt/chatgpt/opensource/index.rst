@@ -48,9 +48,13 @@ ChatGPT 开源实现
     .. code:: bash
 
         # Ubuntu 18.04 系统
-        wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
-        sudo 755 cuda_12.1.0_530.30.02_linux.run
-        sudo sh cuda_12.1.0_530.30.02_linux.run --tookit --silent --override
+        # cuda tookit 11.8 下载地址: https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_520.61.05_linux.run
+        # cuda tookit 12.1 下载地址: https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
+        wget download_url
+        sudo 755 download_file
+        sudo sh download_file --tookit --silent --override
+
+    #. 如提示 cudnn 动态库找不到, 可参考 `NVIDIA cuDNN Documentation <https://docs.nvidia .com/deeplearning/cudnn/install-guide/index.html>`_ 进行安装
 
 
 3. 加速下载模型
