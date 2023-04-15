@@ -20,3 +20,7 @@ ChatGLM-6B
 
 3. 运行
 
+.. code:: bash
+
+    python web_bot.py
+    
