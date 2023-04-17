@@ -1,14 +1,10 @@
-.. _ChatGPT:
+.. _prompt engineering:
 
 
-ChatGPT 原理与应用
+Prompt Engineering
 ================================================================================
 
 
 
 .. toctree::
     :maxdepth: 2
-
-    theory
-    prompt_engineering/index
-    opensource/index

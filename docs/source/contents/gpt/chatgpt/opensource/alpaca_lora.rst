@@ -15,6 +15,15 @@ Alpaca-LoRA
     - LoRA 模型 `tloen/alpaca-lora-7b <https://huggingface.co/tloen/alpaca-lora-7b>`_
 
 
+3. 运行
+
+.. code:: bash
+
+    python generate.py
+    
+
+
+
 .. image:: ./_static/alpaca_lora.png
     :width: 100%
     :align: center

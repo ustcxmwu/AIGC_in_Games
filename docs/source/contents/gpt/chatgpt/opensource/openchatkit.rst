@@ -23,4 +23,5 @@ OpenChatKit
 
     # 假定模型保存在当前文件夹下的 Pythia-Chat-Base 文件夹中
     python inference/bot.py --model ./Pythia-Chat-Base-7B
+    # 在命令行中进行交互
 
