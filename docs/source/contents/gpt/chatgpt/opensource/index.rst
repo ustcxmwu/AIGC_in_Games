@@ -63,6 +63,12 @@ ChatGPT 开源实现
 
         - wget
         - git lfs + clone
+
+        .. code:: bash
+
+            git lfs install
+            git clone huggingface_model_repo
+
         - huggface_hub
 
         .. code:: python

@@ -29,10 +29,24 @@ Stable-Diffusion WebUI ControlNet 和 T2I-Adapter 插件。
     cd models/ControlNet
     wget model_download_url
 
-模型网址：https://huggingface.co/webui/ControlNet-modules-safetensors/tree/main
+模型网址：
+
+- `lllyasviel/ControlNet-v1-1 <https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main>`_
+- `webui/ControlNet-modules-safetensors <https://huggingface.co/webui/ControlNet-modules-safetensors/tree/main>`_
+- `TencentARC/T2I-Adapter <https://huggingface.co/TencentARC/T2I-Adapter/tree/main/models>`_
+
 
 
 插件使用
 --------------------------------------------------------------------------------
 
 
+
+
+ControlNet 模型训练
+--------------------------------------------------------------------------------
+
+
+
+参考资料
+- `使用 diffusers 训练你自己的 ControlNet  <https://mp.weixin.qq.com/s/0qLMTbZmniMgP5keF0EUdw>`_

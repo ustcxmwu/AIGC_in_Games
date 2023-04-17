@@ -11,12 +11,12 @@ Ubuntu (Unix/Linux) 安装 Stable-Diffusion WebUI
 .. code:: bash
 
     # 安装 git
-    apt install git
+    sudo apt install git
     # 验证git安装
     git --version
 
     # 安装 wget
-    apt install wget
+    sudo apt install wget
     # 验证 wget 安装
     wget --version
 
@@ -24,9 +24,17 @@ Ubuntu (Unix/Linux) 安装 Stable-Diffusion WebUI
 
 .. code:: bash
 
-    apt install tmux
+    sudo apt install tmux
 
-3. 安装 Anaconda，从 Anaconda 下载最新的安装脚本并运行, Anaconda 是包含了 Python 安装包，具体可参阅: `Anaconda 官网 <https://www.anaconda.com/>`_。
+3. [可选] 安装 htop 查看内存和CPU使用情况
+
+.. code:: bash
+
+    sudo apt install htop
+
+
+
+4. 安装 Anaconda，从 Anaconda 下载最新的安装脚本并运行, Anaconda 是包含了 Python 安装包，具体可参阅: `Anaconda 官网 <https://www.anaconda.com/>`_。
 
 .. code:: bash
 
