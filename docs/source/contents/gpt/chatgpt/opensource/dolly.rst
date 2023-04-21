@@ -8,11 +8,19 @@ Dolly
 .. code:: bash
 
     git clone https://github.com/databrickslabs/dolly.git
+
+2. 安装运行环境
+
+.. code:: bash
+
+    conda craete -n dolly python=3.10
+    conda activate dolly
+    pip install -r requirements_dev.txt
     
-2. 下载模型, 模型地址: `databricks/dolly-v1-6b <https://huggingface.co/databricks/dolly-v1-6b/tree/main>`_
+3. 下载模型, 模型地址: `databricks/dolly-v1-6b <https://huggingface.co/databricks/dolly-v1-6b/tree/main>`_
 
 
-3. 运行文件, dolly 本身没有带推理文件, 需要自己写
+4. 运行文件, dolly 本身没有带推理文件, 需要自己写
 
 .. code:: python
 
