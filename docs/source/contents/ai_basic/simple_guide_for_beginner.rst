@@ -5,7 +5,7 @@ ML & AI 简明教程
 
 .. Attention:: 本文写给美术和其他不需要理解 ML & AI 原理的同学，方便大家上手工作。
 
-.. image:: ./src/blackbox.jpg
+.. image:: ./_static/blackbox.jpg
 
 :ref:`优化理论`
 
