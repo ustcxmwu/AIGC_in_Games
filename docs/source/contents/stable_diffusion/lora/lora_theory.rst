@@ -1,6 +1,6 @@
 .. _LoRA 原理:
 
-LoRA (Low-Rand Adaptation) 原理
+LoRA (Low-RanK Adaptation) 原理
 ================================================================================
 
 LoRA的全称是 Low-Rank Adaptation，即大型语言模型的低阶自适应，是是微软的研究人员为了解决大语言模型微调而开发的一项技术。 LoRA 算法是 `PEFT: Parameter-Efficient Fine-Tuning <https://github
@@ -17,8 +17,8 @@ LoRA 的具体做法：
 1. 在原模型旁边增加一个旁路，通过低秩分解（先降维再升维）来模拟参数的更新量；
 #. 训练时，原模型固定 :math:`W_0` ，只训练降维矩阵 :math:`A` 和升维矩阵 :math:`B` ；
 #. 推理时，可将 :math:`A B` 加到原参数上，不引入额外的推理延迟；
-#. 初始化，:math:`A` 采用高斯分布初始化，:math:`B` 初始化为全0，保证训练开始时旁路为0矩阵；
-#. 可插拔式的切换任务，当前任务 :math:`W_0+B_1A_1`，将lora部分减掉，换成 :math:`B_2A_2`，即可实现任务切换；
+#. 初始化，:math:`A` 采用高斯分布初始化，:math:`B` 初始化为全0，保证训练开始时旁路 :math:`W_1 = AB` 为0矩阵；
+#. 可插拔式的切换任务，当前任务 :math:`W_0+A_1B_1`，将lora部分减掉，换成 :math:`A_2B_2`，即可实现任务切换；
 
 .. image:: ./_static/lora_1.webp
     :width: 50%
@@ -26,13 +26,13 @@ LoRA 的具体做法：
 
 假设预训练的矩阵为 :math:`W_0 \in \mathbb{R}^{d \times k}` , 其更新过程可表示为：
 
-:math:`W_0 + \Delta W = W_0 + BA, B \in \mathbb{R}^{d \times r}, A \in \mathbb{R}^{r \times k}.`
+:math:`W_0 + \Delta W = W_0 + AB, A \in \mathbb{R}^{d \times r}, B \in \mathbb{R}^{r \times k}.`
 
 其中秩 :math:`r << min(d, k)`.
 
 前向过程中，:math:`W_0` 和 :math:`\Delta W` 都会乘以相同的输入 x，最后相加
 
-:math:`h=W_0 x + \Delta W x = W_0 x + BA x`
+:math:`h=W_0 x + \Delta W x = W_0 x + AB x`
 
 推理过程中只需要把改变量放回元模型，就不会有任何问题：
 
