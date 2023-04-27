@@ -1,6 +1,6 @@
 .. _LoRA 原理:
 
-LoRA (Low-RanK Adaptation) 原理
+LoRA (Low-Rank Adaptation) 原理
 ================================================================================
 
 LoRA的全称是 Low-Rank Adaptation，即大型语言模型的低阶自适应，是是微软的研究人员为了解决大语言模型微调而开发的一项技术。 LoRA 算法是 `PEFT: Parameter-Efficient Fine-Tuning <https://github
