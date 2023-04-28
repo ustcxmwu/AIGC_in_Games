@@ -100,3 +100,4 @@ Chain-of-thought训练中，将数据集中的输入分解为一系列任务是�
 
 1. `caling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning <https://arxiv.org/abs/2303.15647>`_
 #. `State-of-the-art Parameter-Efficient Fine-Tuning (PEFT) methods <https://github.com/huggingface/peft>`_
+#. `当Prompt技巧用尽，Prompt Tuning成就无限：如何找到最优Prompt？ <https://mp.weixin.qq.com/s?__biz=MzkyNzM4NjMwMA==&mid=2247484562&idx=1&sn=6c4fc28c7e28d3d5a51b01ccefca07d4&chksm=c2299b41f55e12574b6007a5103d4415fa51c9dc1732824ceacce4d87ff44ac5df1dc041c91f&scene=132#wechat_redirect>`_
