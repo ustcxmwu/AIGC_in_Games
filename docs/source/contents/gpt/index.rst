@@ -5,7 +5,8 @@ GPT 原理与应用
 .. toctree::
     :maxdepth: 2
 
-    hyperparameter
     transformers
+    hyperparameter
+    fine_tuning
     GPT
     chatgpt/index

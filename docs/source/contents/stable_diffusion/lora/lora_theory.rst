@@ -10,7 +10,7 @@ LoRA 的具体做法是冻结预训练好的模型（也称作基底模型，如
 ）权重参数，然后在每个Transformer（Transforme就是GPT的那个T, 是大语言模型的基础组成单元）块里注入可训练的层，由于不需要对模型的权重参数重新计算梯度，大大减少了需要训练的计算量。
 
 LoRA 本来是给大语言模型准备的，但把它用在cross-attention layers（交叉关注层）也能影响用文字生成图片的效果。最早的 Stable Diffusion 模型其实不支持 
-LoRa 的，后来才加入了对LoRa的支持，据说，Simo Ryu是第一个让Stable Diffusion支持LoRa的人，见 `lora git repo <https://github.com/cloneofsimo/lora>`_。
+LoRA 的，后来才加入了对LoRa的支持，据说，Simo Ryu是第一个让Stable Diffusion支持LoRa的人，见 `lora git repo <https://github.com/cloneofsimo/lora>`_。
 
 LoRA 的具体做法：
 
