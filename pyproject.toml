@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "AIGC_in_Games"
 version = "0.1.0"
-description = ""
-authors = ["Xiaomin Wu <243399634@qq.com>"]
+description = "AI Application in Games"
+authors = ["Xiaomin Wu <xmwu@mail.ustc.edu.cn>"]
 readme = "README.md"
 packages = [{include = "read_notes"}]
 
