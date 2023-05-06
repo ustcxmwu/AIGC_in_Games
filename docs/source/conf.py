@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'AIGC 在游戏中的应用和实践'
-copyright = '2023, Wu Xiaomin <wuxiaomin@pandadastudio.com>'
-author = 'Wu Xiaomin <wuxiaomin@pandadastudio.com>'
+copyright = '2023, Wu Xiaomin <xmwu@mail.ustc.edu.cn>'
+author = 'Wu Xiaomin <xmwu@mail.ustc.edu.cn>'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1.0'
