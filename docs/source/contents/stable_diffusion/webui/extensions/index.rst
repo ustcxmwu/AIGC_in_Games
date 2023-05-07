@@ -23,6 +23,8 @@ Stable Diffusion WebUI 官方插件介绍页面为: `SD WiKi Extensions <https:/
     bilingual
     posex
     image_browser
+    PBRemTools
+    dataset_tag_editor
     chatgpt_utils
     llul
     dynamic_prompts
