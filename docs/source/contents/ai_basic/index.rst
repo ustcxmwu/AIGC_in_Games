@@ -9,4 +9,5 @@ AI 基础理论
     simple_guide_for_beginner
     concept
     optimization_theory
+    terms
 
