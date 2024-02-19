@@ -10,10 +10,10 @@ AIGC 在游戏中的应用与实践
    :maxdepth: 3
    :caption: 目录:
 
-   contents/stable_diffusion/index
-   contents/gpt/index
    contents/ai_basic/index
    contents/math/index
+   contents/stable_diffusion/index
+   contents/gpt/index
    contents/draft
 
 

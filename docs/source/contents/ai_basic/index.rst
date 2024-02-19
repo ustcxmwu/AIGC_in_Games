@@ -6,6 +6,7 @@ AI 基础理论
     :maxdepth: 2
 
     simple_guide_for_beginner
-    concept
     optimization_theory
+    machine_learning
+    concept
 
