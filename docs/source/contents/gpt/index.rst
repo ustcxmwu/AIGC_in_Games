@@ -7,6 +7,6 @@ GPT 原理与应用
 
     transformers
     hyperparameter
-    fine_tuning
     GPT
+    fine_tuning
     chatgpt/index
